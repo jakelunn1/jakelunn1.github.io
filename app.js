@@ -15,10 +15,9 @@ var search = [ // Search engines
 ];
 
 var menus = [ // Menu Titles ["Title", width(px)],                                                   /* menu width */
-  ["Reddit", 200], // menu-1
-  ["Quicklinks", 200], // menu-2
-  ["Entertainment", 200], // menu-3
-  ["Other", 200], // menu-4
+  ["Quicklinks", 200], // menu-1
+  ["Entertainment", 200], // menu-2
+  ["Other", 200], // menu-3
 ];
 
 var showFavicon = true; // Enable/Disable Favicons
@@ -26,35 +25,30 @@ var showFavicon = true; // Enable/Disable Favicons
 // Link setup (separate with ["", "", ""],)
 // Format: ["Name", "URL", "Custom Favicon"],
 var links = [
-  // Reddit -          menu-1
-  ["/r/unixart", "http://www.reddit.com/r/unixart", ""],
-  ["/r/unixporn", "http://www.reddit.com/r/unixporn", ""],
 
-  ["", "", ""],
-
-  // Quicklinks -     menu-2
-  ["Reddit", "http://www.reddit.com", ""],
+  // Quicklinks -     menu-1
   ["Google", "https://www.google.com", ""],
   ["Gmail", "https://mail.google.com", ""],
   ["GitHub", "https://github.com", ""],
   ["Forecast.io", "https://forecast.io/", ""],
   ["Slashdot", "http://slashdot.org", ""],
+  ["Reddit", "http://www.reddit.com", ""],
 
   ["", "", ""],
 
-  // Entertainment -  menu-3
-  ["HypeM", "http://hypem.com", ""],
-  ["Feedly", "https://feedly.com/", ""],
+  // Entertainment -  menu-2
+  ["Disney+", "https://www.disneyplus.com/home", ""],
+  ["Hulu", "https://feedly.com/", ""],
   ["Netflix", "https://netflix.com", ""],
-  ["Pocket", "https://getpocket.com/a/queue/", ""],
-  ["Spotify", "https://play.spotify.com", ""],
+  ["HBO Max", "https://www.hbomax.com/", ""],
   ["YouTube", "https://youtube.com", ""],
 
   ["", "", ""],
 
-  // Other -          menu""-4
+  // Other -          menu""-3
   ["Imgur", "https://imgur.com/", ""],
   ["CodePen", "https://codepen.io", ""],
+  ["Scroller", "https://scrolller.com/", ""],
 ];
 
 
