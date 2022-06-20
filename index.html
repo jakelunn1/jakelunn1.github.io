@@ -1,15 +1,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <script src="app.js"></script>
+        
 
     </head>
 <body onload="javascript:init();">
-
+  
   <div class="center">
+    
     <div class="content" id="form" style="top: 0px; opacity: 1;">
+      
+      <br>
       <input type="text" id="q" value="" placeholder="Search..." onkeypress="javascript:handleQuery(event,this.value);">
       <br>
+      
       <br>
       <div id="more" onclick="javascript:toggle();">+</div>
       <br>
@@ -34,6 +38,8 @@
       <ul id="mnu"></ul>
     </div>
   </center>
-
+  <script src="app.js"></script>
+  <div id="clockContainer">00:00</div>
+  <script src="app.js"></script>
 </body>
 </html>

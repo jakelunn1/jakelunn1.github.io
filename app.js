@@ -1,3 +1,5 @@
+
+
 var $ = function(id) {
   return document.getElementById(id);
 };
@@ -159,3 +161,25 @@ function getFavicon(url) {
 
   return l.protocol + "//" + l.hostname + "/favicon.ico";
 }
+
+/* Clock */
+function displayClock() {
+  var clockContainer = document.querySelector("#clockContainer");
+  let date = new Date();
+  let hrs = date.getHours();
+  let min = date.getMinutes();
+  if (hrs > 12) {
+      hrs = hrs - 12
+  }  
+  if (hrs < 10) {
+      hrs = "0" + hrs
+  }
+  if (min < 10) {
+      min = "0" + min
+  }
+  clockContainer.innerHTML = hrs + ':' + min;
+}
+
+
+displayClock();
+setInterval(displayClock, 1000);

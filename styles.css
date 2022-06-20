@@ -74,3 +74,15 @@ html,body {
     position: relative; top: 3px;
     padding-right: 3px; visibility: hidden;
   }
+
+  #clockContainer {
+    color: #fff;
+    font-family: 'Fira Code';
+    font-size: 10vw;
+    line-height: 12vw;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
