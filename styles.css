@@ -10,9 +10,9 @@ html,body {
     );
     background-size: 200% 200%;
 
-    -webkit-animation: Animation 8s ease infinite;
-    -moz-animation: Animation 8s ease infinite;
-    animation: Animation 8s ease infinite;
+    -webkit-animation: Animation 20s ease infinite;
+    -moz-animation: Animation 20s ease infinite;
+    animation: Animation 20s ease infinite;
   }
 
   @-webkit-keyframes Animation {
