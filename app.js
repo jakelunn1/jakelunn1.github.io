@@ -40,7 +40,7 @@ var links = [
 
   // Entertainment -  menu-2
   ["Disney+", "https://www.disneyplus.com/home", ""],
-  ["Hulu", "https://feedly.com/", ""],
+  ["Hulu", "https://hulu.com/", ""],
   ["Netflix", "https://netflix.com", ""],
   ["HBO Max", "https://www.hbomax.com/", ""],
   ["YouTube", "https://youtube.com", ""],
