@@ -6,8 +6,8 @@ var $ = function(id) {
 
 
 var search = [ // Search engines
-  ["", "https://www.google.com/#q="], // Google (Default)
-  ["!g", "https://www.google.com/#q="], // Google
+  ["", "https://www.google.com/search?q="], // Google (Default)
+  ["!g", "https://www.google.com/search?#q="], // Google
   ["!i", "https://www.google.com/search?tbm=isch&q="], // Google Images
   ["!y", "https://www.youtube.com/results?search_query="], // YouTube
   ["!r", "https://www.reddit.com/search?q="], // Reddit
