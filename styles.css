@@ -45,15 +45,15 @@ html,body {
   
   #q {
     width: 500px;
-    background: #565f89; color: #a9b1d6;
+    background: #7c6f64; color: #FFF;
     border: 1px solid #EAEAEA; border-radius: 1px;
     padding: 8px 8px; font-size: 12pt;
   }
-  #q:focus { border-color: #3971ED !important; }
-  #q:hover { border-color: #CECECE; }
+  #q:focus { border-color: #d65d0e !important; }
+  #q:hover { border-color: #d65d0e; }
   
   #more {
-    background: #CECECE; color: #FFF; border-radius: 1px;
+    background: #7c6f64; color: #FFF; border-radius: 1px;
     cursor: pointer; display: inline-block;
     font-size: 18pt; line-height: 20px; /* vertical align "+" button */
     width: 24px; height: 24px;
@@ -103,7 +103,7 @@ html,body {
   }
 
   #clockContainer {
-    color: #fff;
+    color: #7c6f64;
     font-family: 'Fira Code';
     font-size: 10vw;
     line-height: 12vw;
