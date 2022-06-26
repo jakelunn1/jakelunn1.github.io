@@ -40,7 +40,7 @@ html,body {
   .center .content {
     margin: auto; overflow: auto; width: 600px; height: 300px;
     position: absolute; left: 0; top: 0; right: 0; bottom: -50px; /* search box align */
-    text-align: center; opacity: 1; transition: .3s ease-out;
+    text-align: center; opacity: .5; transition: .3s ease-out;
   }
   
   #q {
