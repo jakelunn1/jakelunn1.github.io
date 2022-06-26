@@ -39,7 +39,7 @@ var links = [
   ["", "", ""],
 
   // Entertainment -  menu-2
-  ["Slap Forum", "https://www.slapmagazine.com/index.php", ""],
+  ["Slap Forum", "https://www.slapmagazine.com", "https://www.slapmagazine.com/legacy/templates/SlapHomepage/favicon.ico"],
   ["Disney+", "https://www.disneyplus.com/home", ""],
   ["Hulu", "https://hulu.com/", ""],
   ["Netflix", "https://netflix.com", ""],
